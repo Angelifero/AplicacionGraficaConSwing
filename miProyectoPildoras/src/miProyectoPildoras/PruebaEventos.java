@@ -30,7 +30,7 @@ class MarcoBotones extends JFrame{
 	}
 }
 
-class LaminaBotones extends JPanel implements ActionListener{
+class LaminaBotones extends JPanel{
 	JButton botonAzul=new JButton("Azul");
 	JButton botonRojo=new JButton("Rojo");
 	JButton botonAmarillo=new JButton("Amarillo");
@@ -42,31 +42,52 @@ class LaminaBotones extends JPanel implements ActionListener{
 		add(botonAmarillo);
 		add(botonVerde);
 		
-		botonAzul.addActionListener(this);
-		botonRojo.addActionListener(this);
-		botonAmarillo.addActionListener(this);
-		botonVerde.addActionListener(this);
+		ColorDeFondo Azul=new ColorDeFondo(Color.blue);
+		ColorDeFondo Rojo=new ColorDeFondo(Color.red);
+		ColorDeFondo Amarillo=new ColorDeFondo(Color.yellow);
+		ColorDeFondo Verde=new ColorDeFondo(Color.green);
+		
+		
+		botonAzul.addActionListener(Azul);
+		botonRojo.addActionListener(Rojo);
+		botonAmarillo.addActionListener(Amarillo);
+		botonVerde.addActionListener(Verde);
 	}
 
-	@Override
-	public void actionPerformed(ActionEvent e) {
-		// TODO Auto-generated method stub
-		Object botonPulsado=e.getSource();
+ private class ColorDeFondo implements ActionListener{
 		
-		if(botonPulsado==botonAzul) {
-			setBackground(Color.blue);
-		}
-		else if(botonPulsado==botonRojo) {
-			setBackground(Color.red);
-		}
-		else if(botonPulsado==botonAmarillo) {
-			setBackground(Color.yellow);
-		}
-		else if(botonPulsado==botonVerde) {
-			setBackground(Color.green);
+		private Color colorDeFondo;
+		public ColorDeFondo(Color c) {
+			colorDeFondo=c;
 		}
 		
-		
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			setBackground(colorDeFondo);
+		}
 	}
 	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
