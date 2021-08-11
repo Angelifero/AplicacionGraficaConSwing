@@ -1,5 +1,9 @@
 package miProyectoPildoras;
 
+import java.awt.Color;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
 import javax.swing.*;
 
 public class PruebaEventos {
@@ -26,6 +30,43 @@ class MarcoBotones extends JFrame{
 	}
 }
 
-class LaminaBotones extends JPanel{
+class LaminaBotones extends JPanel implements ActionListener{
+	JButton botonAzul=new JButton("Azul");
+	JButton botonRojo=new JButton("Rojo");
+	JButton botonAmarillo=new JButton("Amarillo");
+	JButton botonVerde=new JButton("Verde");
+	
+	public LaminaBotones() {
+		add(botonAzul);
+		add(botonRojo);
+		add(botonAmarillo);
+		add(botonVerde);
+		
+		botonAzul.addActionListener(this);
+		botonRojo.addActionListener(this);
+		botonAmarillo.addActionListener(this);
+		botonVerde.addActionListener(this);
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+		Object botonPulsado=e.getSource();
+		
+		if(botonPulsado==botonAzul) {
+			setBackground(Color.blue);
+		}
+		else if(botonPulsado==botonRojo) {
+			setBackground(Color.red);
+		}
+		else if(botonPulsado==botonAmarillo) {
+			setBackground(Color.yellow);
+		}
+		else if(botonPulsado==botonVerde) {
+			setBackground(Color.green);
+		}
+		
+		
+	}
 	
 }
