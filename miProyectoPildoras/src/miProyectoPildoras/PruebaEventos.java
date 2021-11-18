@@ -68,26 +68,3 @@ class LaminaBotones extends JPanel{
 	}
 	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

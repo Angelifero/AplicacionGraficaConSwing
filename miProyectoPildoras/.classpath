@@ -6,5 +6,46 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="libs/spring-beans-5.2.13.RELEASE.jar"/>
+	<classpathentry kind="lib" path="libs/spring-beans-5.2.14.RELEASE.jar"/>
+	<classpathentry kind="lib" path="libs/spring-beans-5.2.15.RELEASE.jar"/>
+	<classpathentry kind="lib" path="libs/spring-beans-5.2.16.RELEASE.jar"/>
+	<classpathentry kind="lib" path="libs/spring-beans-5.3.4.jar"/>
+	<classpathentry kind="lib" path="libs/spring-beans-5.3.5.jar"/>
+	<classpathentry kind="lib" path="libs/spring-beans-5.3.6.jar"/>
+	<classpathentry kind="lib" path="libs/spring-beans-5.3.7.jar"/>
+	<classpathentry kind="lib" path="libs/spring-beans-5.3.8.jar"/>
+	<classpathentry kind="lib" path="libs/spring-beans-5.3.9.jar"/>
+	<classpathentry kind="lib" path="libs/spring-context-2.0-rc2.jar"/>
+	<classpathentry kind="lib" path="libs/spring-core-5.2.13.RELEASE.jar"/>
+	<classpathentry kind="lib" path="libs/spring-core-5.2.14.RELEASE.jar"/>
+	<classpathentry kind="lib" path="libs/spring-core-5.2.15.RELEASE.jar"/>
+	<classpathentry kind="lib" path="libs/spring-core-5.2.16.RELEASE.jar"/>
+	<classpathentry kind="lib" path="libs/spring-core-5.3.4.jar"/>
+	<classpathentry kind="lib" path="libs/spring-core-5.3.5.jar"/>
+	<classpathentry kind="lib" path="libs/spring-core-5.3.6.jar"/>
+	<classpathentry kind="lib" path="libs/spring-core-5.3.7.jar"/>
+	<classpathentry kind="lib" path="libs/spring-core-5.3.8.jar"/>
+	<classpathentry kind="lib" path="libs/spring-core-5.3.9.jar"/>
+	<classpathentry kind="lib" path="libs/spring-jcl-5.2.13.RELEASE.jar"/>
+	<classpathentry kind="lib" path="libs/spring-jcl-5.2.14.RELEASE.jar"/>
+	<classpathentry kind="lib" path="libs/spring-jcl-5.2.15.RELEASE.jar"/>
+	<classpathentry kind="lib" path="libs/spring-jcl-5.2.16.RELEASE.jar"/>
+	<classpathentry kind="lib" path="libs/spring-jcl-5.3.4.jar"/>
+	<classpathentry kind="lib" path="libs/spring-jcl-5.3.5.jar"/>
+	<classpathentry kind="lib" path="libs/spring-jcl-5.3.6.jar"/>
+	<classpathentry kind="lib" path="libs/spring-jcl-5.3.7.jar"/>
+	<classpathentry kind="lib" path="libs/spring-jcl-5.3.8.jar"/>
+	<classpathentry kind="lib" path="libs/spring-jcl-5.3.9.jar"/>
+	<classpathentry kind="lib" path="libs/spring-web-5.2.13.RELEASE.jar"/>
+	<classpathentry kind="lib" path="libs/spring-web-5.2.14.RELEASE.jar"/>
+	<classpathentry kind="lib" path="libs/spring-web-5.2.15.RELEASE.jar"/>
+	<classpathentry kind="lib" path="libs/spring-web-5.2.16.RELEASE.jar"/>
+	<classpathentry kind="lib" path="libs/spring-web-5.3.4.jar"/>
+	<classpathentry kind="lib" path="libs/spring-web-5.3.5.jar"/>
+	<classpathentry kind="lib" path="libs/spring-web-5.3.6.jar"/>
+	<classpathentry kind="lib" path="libs/spring-web-5.3.7.jar"/>
+	<classpathentry kind="lib" path="libs/spring-web-5.3.8.jar"/>
+	<classpathentry kind="lib" path="libs/spring-web-5.3.9.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
