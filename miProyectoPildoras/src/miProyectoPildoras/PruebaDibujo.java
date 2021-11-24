@@ -1,5 +1,6 @@
 package miProyectoPildoras;
 
+import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.geom.Ellipse2D;
@@ -36,12 +37,16 @@ class LaminaNueva extends JPanel {
 
 		Graphics2D g2 = (Graphics2D) g;
 		Rectangle2D rectangle2d = new Rectangle2D.Double(100, 100, 200, 150);
+		
+		g2.setPaint(Color.RED);
 
-		g2.draw(rectangle2d);
+		g2.fill(rectangle2d);
 
 		Ellipse2D ellipse2d = new Ellipse2D.Double();
 		ellipse2d.setFrame(rectangle2d);
-		g2.draw(ellipse2d);
+		g2.setPaint(Color.BLUE);
+		g2.fill(ellipse2d);
+		
 		g2.draw(new Line2D.Double(100, 100, 300, 250));
 
 		double centroEnX = rectangle2d.getCenterX();
