@@ -24,8 +24,8 @@ class MarcoBotones extends JFrame{
 		setTitle("Botones y eventos");
 		setBounds(700, 300, 500, 300);
 		
-		LaminaBotones miLamina=new LaminaBotones();
-		add(miLamina);
+//		LaminaBotones miLamina=new LaminaBotones();
+//		add(miLamina);
 		
 	}
 }
